@@ -131,11 +131,11 @@ En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utliz
 Esto debiera darse con una mayor dificultad si la brecha es mayor a 100, donde las diferencias se comienzan a notar.
 En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
 puedan obtener esa victoria.
-En cambio en las otras hay jugadores no reconocidos y además son menores en magnitud que la primera sección , esto demuestra lo          escaso que es. 
+Por otro lado, en las 2 siguientes consultas, hay jugadores no tan reconocidos que tampoco alcanzan un gran número de victorias. 
 
 
 
-* Los Jugadores que le han Ganado al actual campeón del Mundo Magnus Carlsen
+* Los Jugadores que le han Ganado al actual campeón del mundo Magnus Carlsen
 
 | Nombre | Cantidad de Juegos Ganados|ELO mas bajo con el que ganó|
 |-------:|--------------------------:|----------------------------|
@@ -174,7 +174,9 @@ Los jugadores que aparecen son extremadamente fuertes y es entendible que puedan
 |Ivanchuk, Vassily|Kramnik, Vladimir|23|70|25|118|
 |Kramnik, Vladimir|Leko, Peter|21|88|8|117|
 
-Son jugadores que siempre se encuentran entre los mejores , por lo que encuentran siempre en gran cantidad de torneos oficiales como otros  no oficiales , sobre todo notar que los primeros fueron contendientes al título del mundo por lo que es natural que hayan jugado una gran cantidad de partidas
+En general, los resultados muestran parejas de jugadores que son bastante reconocidos en el circuito. En este sentido varios de 
+ellos se han enfrentado más de una vez durante su trayectoria. Un caso notable es la primera pareja de los resultados. Ambos 
+fueron contendientes al título mundial. Otro duelo notable es el de Carlsen - Nakamura, un verdadero clásico hoy en día.
 
 
 * Por último 2 consultas del tipo general 
@@ -210,7 +212,8 @@ Son jugadores que siempre se encuentran entre los mejores , por lo que encuentra
         |Burmakin, Vladimir|1245|
         |Nakamura, Hikaru|1221|
    
-    
+    Con esta consulta se puede apreciar que no necesariamente los jugadores que más han ganado partidas son quienes mejor
+    puntuación consiguen. Esto es porque 
     
     
     

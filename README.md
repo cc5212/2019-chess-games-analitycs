@@ -151,6 +151,8 @@ Para esta consulta la dividimos en tres
 |Radjabov, Teimour|8|2713.0|
 |Vachier-Lagrave,Maxime|7|2703.0|
 
+Actualmente, el jugador Magnus Carlsen es el jugador con mayor Elo en el ranking de ajedrez, por lo que 
+una victoria sobre él corresponde a una gran hazaña.
 Los jugadores que aparecen son extremadamente fuertes y es entendible que puedan ganarle algunas partidas.
 
 

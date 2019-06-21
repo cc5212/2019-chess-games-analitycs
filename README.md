@@ -174,20 +174,22 @@ Los jugadores que aparecen son extremadamente fuertes y es entendible que puedan
 Son jugadores que siempre se encuentran entre los mejores , por lo que encuentran siempre en gran cantidad de torneos oficiales como otros  no oficiales , sobre todo notar que los primeros fueron contendientes al título del mundo por lo que es natural que hayan jugado una gran cantidad de partidas
 
 
-* Por último 2 consultas del tipo general, 
-  * ¿Quién es el jugador que más ha ganado?
-    | Jugador  |      Cantidad  | 
-    |---------:|:-------------:|
-    |Shirov, Alexei|1556|
-    |Van Wely, Loek|1523|
-    |Korneev, Oleg|1509|
-    |Ivanchuk, Vassily|1435|
-    |Kozul, Zdenko|1333|
-    |Tiviakov, Sergei,1312|
-    |Hebden, Mark L|1310|
-    |Epishin, Vladimir|1309|
-    |Burmakin, Vladimir|1245|
-    |Nakamura, Hikaru|1221|
+* Por último 2 consultas del tipo general 
+  * 
+     ¿Quién es el jugador que más ha ganado?
+    
+       | Jugador  |      Cantidad  | 
+       |---------:|---------------:|
+       |Shirov, Alexei|1556|
+       |Van Wely, Loek|1523|
+       |Korneev, Oleg|1509|
+       |Ivanchuk, Vassily|1435|
+       |Kozul, Zdenko|1333|
+       |Tiviakov, Sergei,1312|
+       |Hebden, Mark L|1310|
+       |Epishin, Vladimir|1309|
+       |Burmakin, Vladimir|1245|
+       |Nakamura, Hikaru|1221|
     
    * ¿Quienes son los jugadores con mas ELO?
    

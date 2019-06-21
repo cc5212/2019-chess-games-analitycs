@@ -127,7 +127,9 @@ Para esta consulta la dividimos en tres
        
        
        
-En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utlizado para medir el nivel de habilidad de un jugador. En este sentido, tendría sentido que un jugador con menor Elo tenga menos posibilidades de vencer a un jugador de mayor Elo.
+En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utlizado para medir el nivel de habilidad de un 
+jugador. En este sentido, tendría sentido que un jugador con menor Elo tenga menos posibilidades de vencer a un jugador 
+de mayor Elo.
 Esto debiera darse con una mayor dificultad si la brecha es mayor a 100, donde las diferencias se comienzan a notar.
 En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
 puedan obtener esa victoria.
@@ -213,7 +215,8 @@ fueron contendientes al título mundial. Otro duelo notable es el de Carlsen - N
         |Nakamura, Hikaru|1221|
    
     Con esta consulta se puede apreciar que no necesariamente los jugadores que más han ganado partidas son quienes mejor
-    puntuación consiguen. Esto es porque 
+    puntuación consiguen. Esto es porque el cálculo del Elo sigue un método matemático complejo que no sólo tiene como
+    variable las victorias.
     
     
     
@@ -221,7 +224,7 @@ fueron contendientes al título mundial. Otro duelo notable es el de Carlsen - N
 
 # Conclusion
 Como conclusión se pudo lograr obtener resultados bastantes interesantes con los cuales se pueden sacar algunas conclusiones, por ejemplo los jugadores élite son de ese nivel porque juegan mucho y siempre a una alta exigencia.
-En cuanto al procedimiento  ya que se ocupó pig no fue tan extenuannte el proceso , pero en contra de eso se pagó el costo de tener consultas esperando unlargo tiempo y con lo que el proceso de debugger no era el óptimo.
-Se podría hacer mejor ocupando Map/Reduce directamente con Hadoop
+En cuanto al procedimiento, ya que se ocupó Pig, el proceso tuvo la ventaja de que, al momento de programar, era todo más amigable ya que es una herramienta de alto nivel, pero, también por esta última razón, se tiene como desventaja el pago en tiempo de interpretar los comandos. 
+Se podría hacer mejor ocupando Map/Reduce directamente con Hadoop.
 
 

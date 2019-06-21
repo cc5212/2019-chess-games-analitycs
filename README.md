@@ -1,14 +1,14 @@
 # 2019-chess-games-analitycs
-Analisis Partidas y Jugadores de Ajedrez [Grupo 11: Luis Pinochet, Felipen Manen , José Miguel Cordero]
+Análisis de partidas y jugadores de ajedrez (José Miguel Cordero, Felipe Manen, Luis Pinochet, Grupo 11).
 # Overview
-Con estas Bases generamos consultas inspiradas en la intución ,es decir , se buscó que ideas están implantadas en el colectivo y ver si que tan cierto es
+Se generan ciertas consultas relacionadas con el ajedrez, estudiando de manera concreta ciertas nociones e intuiciones respecto del circuito mundial de este deporte. Se hacen consultas de datos de partidas desde el año 1990 así como del registro de jugadores a nivel mundial.
 
 # Data
 
-Se ocuparon dos bases:
-* Base de Partidas de ajedrez descargadas desde https://www.kingbase-chess.net/ que es una base de partidas de ajedrez jugadas por toda clase de jugadores cuyo objetivo es que sean estudiadas.
-El tamaño es cercano a 1.5 GB con alrededor de 2.2 millones de filas-
-Los campos mas importantes de la base de datos es 
+Se hace uso de dos bases de datos:
+* Base de partidas de ajedrez obtenida de https://www.kingbase-chess.net/. El conjunto de datos son desde el año 1990 hasta 2019.
+El tamaño es cercano a 1.5 GB, con alrededor de 2.2 millones de filas.
+Los campos más importantes de la base de datos es 
   * Evento del torneo 
   * Lugar del torneo
   * Día del juego 
@@ -16,14 +16,14 @@ Los campos mas importantes de la base de datos es
   * Jugador de Blancas 
   * Jugador de Negras 
   * Resultado
-  * ELO Blancas
-  * ELO Negras 
+  * ELO jugador de blancas
+  * ELO jugador de negras
   * Código de Apertura 
   * Día del Evento
 *  Base de Jugadores de Ajedrez :
- Esta base fue descargada desde https://ratings.fide.com/download.phtml  esta contiene la información relevante de un jugador de ajedrez que suele ocuparse para organizar torneos abiertos o cerrados.
-El tamaño es de 50mb y alrededor 880000 filas
- Los campos mas relevantes que contiene :
+ Esta base fue descargada desde https://ratings.fide.com/download.phtml y contiene la información relevante de un jugador de ajedrez. Suele ocuparse para organizar torneos abiertos o cerrados. Este registro es del mes de junio de 2019.
+El tamaño es de 50 MB aproximadamente y alrededor 880000 filas.
+ Los campos mas relevantes que contiene son:
     * ID del Jugador
     * Nombre del Jugador
     * Federacion ( Es el País por el Juegan)
@@ -36,25 +36,26 @@ El tamaño es de 50mb y alrededor 880000 filas
 
 # Methods
 
-Este proyecto tuvo 3 etapas:
-  * Una etapa de investigación dónde se investigó a travéz del conocimiento empírico de ajedrecistas
-  * Una etapa de parser , ya que los datos tenían defectos en su orden y valores , para esto se programó los parser en python
-  * Una etapa de consulta , dónde se programó em pig ocupando los métodos Map/Reduce  de Hadoop que ofrece
-  Los problemas pricipales fueron con las bases en si , habían demasiados problemas con valores nulos o incompletos
+Este proyecto tuvo 2 etapas:
+  * Parseo de datos: se generan archivos de datos en formato ".tsv" para poder hacer las consultas.
+  * Consultas: se programa en Apache Pig para realizar las consultas que se detallan en las siguiente sección.
+  
   
 # Results
 
-Los resultados tienen bastante lógica en general y serán explicados y mostrados a continuación
+Los resultados tienen bastante lógica en general y serán explicados y mostrados a continuación.
+
 Las consultas fueron:
-* Cantidad de Partidas Ganadas por Blancas , empates y Ganadas por Negras
+* Cantidad de partidas ganadas por jugador con piezas blancas, empates y ganadas por jugador con piezas negras
 
 | Blancas  |      Empates  | Negras|
 |---------:|:-------------:|------:|
 | 799210   |  606812       | 779309|
 | 37%      |    28%        |   35% |
 
-Ya que las blancas parten el juego estas tienen ventaja , esto queda reflejado en este resultado.
-* Aperturas mas comunes 
+Ya que las blancas parten el juego, éstas tienen ventaja. Esto queda reflejado en este resultado.
+
+* Aperturas más comunes
 
 | Código   |      Nombre   | Cantidad|
 |---------:|:-------------:|--------:|
@@ -69,13 +70,13 @@ Ya que las blancas parten el juego estas tienen ventaja , esto queda reflejado e
 | B90      |Defensa Siciliana Najdorf               |21322         |           
 | E11      |Defensa Bogo-India               | 21009        |           
 
-Vemos Aperturas semi-cerradas muy populares a niveles medios y altos, debido a las poco teoría y oportunidades de ataque 
-para ambos bandos.
-Terminando está la apertura de Peón Dama y Bogo-India Sistemas cerrados que son jugados de manera ocacional en la élite del ajedrez.
+La apertura, en el ajedrez, corresponde a un conjunto de primeras jugadas que, en definitiva, definen qué clase de juego se va presenciar. En el estudio y las bases de datos del ajedrez, cada una de las salidas tiene un código.
+Se pueden apreciar aperturas semi-cerradas muy populares a niveles medios y altos.
+Terminando está la apertura de Peón Dama y Bogo-India, sistemas cerrados que son jugados de manera ocasional en la élite del ajedrez.
 
-* Jugadores que mas veces han ganado a jugadores de mayor ELO 
+* Jugadores que más veces han ganado a jugadores de mayor ELO 
 Para esta consulta la dividimos en tres
-  * Diferencia de 100 o más  de elo 
+  * Alguna diferencia con su oponente en cuanto a ELO
   
   
     | Nombre | Cantidad de Juegos Ganados|
@@ -92,7 +93,7 @@ Para esta consulta la dividimos en tres
     |Gunina, Valentina |189 |
     
     
-  * Diferencia de 200 o más  de elo 
+  * Diferencia de 200 o más de ELO 
        
  
        | Nombre | Cantidad de Juegos Ganados|
@@ -109,7 +110,7 @@ Para esta consulta la dividimos en tres
        |Kulon, Klaudia|53|
   
   
-  * Diferencia de 100 o más de ELO :
+  * Diferencia de 300 o más de ELO
 
       | Nombre | Cantidad de Juegos Ganados|
       |-------:|--------------------------:|
@@ -126,8 +127,8 @@ Para esta consulta la dividimos en tres
        
        
        
-     Ganarle a un jugador de mas fuerte (que es lo que intenta representar el ELO ) , es general difícil .
-     Sobre todo si la brecha es de mayor de 100 donde las diferencias se comienzan a notar.
+     En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utlizado para medir el nivel de habilidad de un jugador. En este sentido, tendría sentido que un jugador con menor Elo tenga menos posibilidades de vencer a un jugador de mayor Elo.
+     Esto debiera darse con una mayor dificultad si la brecha es mayor a 100, donde las diferencias se comienzan a notar.
      En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
      puedan obtener esa victoria.
      En cambio en las otras hay jugadores no reconocidos y además son menores en magnitud que la primera sección , esto demuestra lo          escaso que es. 

@@ -127,12 +127,12 @@ Para esta consulta la dividimos en tres
        
        
        
-     En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utlizado para medir el nivel de habilidad de un jugador. En este sentido, tendría sentido que un jugador con menor Elo tenga menos posibilidades de vencer a un jugador de mayor Elo.
-     Esto debiera darse con una mayor dificultad si la brecha es mayor a 100, donde las diferencias se comienzan a notar.
-     En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
-     puedan obtener esa victoria.
-     En cambio en las otras hay jugadores no reconocidos y además son menores en magnitud que la primera sección , esto demuestra lo          escaso que es. 
-     
+En el mundo del ajedrez, el Elo corresponde al sistema de puntuación más utlizado para medir el nivel de habilidad de un jugador. En este sentido, tendría sentido que un jugador con menor Elo tenga menos posibilidades de vencer a un jugador de mayor Elo.
+Esto debiera darse con una mayor dificultad si la brecha es mayor a 100, donde las diferencias se comienzan a notar.
+En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
+puedan obtener esa victoria.
+En cambio en las otras hay jugadores no reconocidos y además son menores en magnitud que la primera sección , esto demuestra lo          escaso que es. 
+
 
 
 * Los Jugadores que le han Ganado al actual campeón del Mundo Magnus Carlsen

@@ -175,36 +175,37 @@ Son jugadores que siempre se encuentran entre los mejores , por lo que encuentra
 
 
 * Por último 2 consultas del tipo general 
-  * 
-     ¿Quién es el jugador que más ha ganado?
-    
-       | Jugador  |      Cantidad  | 
-       |---------:|---------------:|
-       |Shirov, Alexei|1556|
-       |Van Wely, Loek|1523|
-       |Korneev, Oleg|1509|
-       |Ivanchuk, Vassily|1435|
-       |Kozul, Zdenko|1333|
-       |Tiviakov, Sergei,1312|
-       |Hebden, Mark L|1310|
-       |Epishin, Vladimir|1309|
-       |Burmakin, Vladimir|1245|
-       |Nakamura, Hikaru|1221|
-    
-   * ¿Quienes son los jugadores con mas ELO?
-   
-      | Jugador  |      ELO  | 
-      |---------:|:-------------:|
-      |Carlsen, Magnus|2875|
-      |Caruana, Fabiano|2819|
-      |Kasparov, Garry|2812|
-      |Ding, Liren|2805|
-      |Vachier-Lagrave, Maxime|2779|
-      |Giri, Anish|2779|
-      |Nepomniachtchi, Ian|2775|
-      |Grischuk, Alexander|2775|
-      |Mamedyarov, Shakhriyar|2774|
-      |Anand, Viswanathan|2767|
+    * ¿Quienes son los jugadores con mas ELO?
+
+        | Jugador  |      ELO  | 
+        |---------:|-------------:|
+        |Carlsen, Magnus|2875|
+        |Caruana, Fabiano|2819|
+        |Kasparov, Garry|2812|
+        |Ding, Liren|2805|
+        |Vachier-Lagrave, Maxime|2779|
+        |Giri, Anish|2779|
+        |Nepomniachtchi, Ian|2775|
+        |Grischuk, Alexander|2775|
+        |Mamedyarov, Shakhriyar|2774|
+        |Anand, Viswanathan|2767|
+        
+        
+        
+   * ¿Quién es el jugador que más ha ganado?
+
+        | Jugador  |      Cantidad  | 
+        |---------:|---------------:|
+        |Shirov, Alexei|1556|
+        |Van Wely, Loek|1523|
+        |Korneev, Oleg|1509|
+        |Ivanchuk, Vassily|1435|
+        |Kozul, Zdenko|1333|
+        |Tiviakov, Sergei,1312|
+        |Hebden, Mark L|1310|
+        |Epishin, Vladimir|1309|
+        |Burmakin, Vladimir|1245|
+        |Nakamura, Hikaru|1221|
    
     
     

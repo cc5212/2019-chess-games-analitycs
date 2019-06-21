@@ -130,14 +130,85 @@ Para esta consulta la dividimos en tres
      Sobre todo si la brecha es de mayor de 100 donde las diferencias se comienzan a notar.
      En la primera sección se ven sólo grandes maestros que se encuentran entre los mejores del mundo , por lo que es natural que ellos 
      puedan obtener esa victoria.
-     En cambio en las otras hay jugadores no reconocidos
+     En cambio en las otras hay jugadores no reconocidos y además son menores en magnitud que la primera sección , esto demuestra lo          escaso que es. 
      
 
 
+* Los Jugadores que le han Ganado al actual campeón del Mundo Magnus Carlsen
+
+| Nombre | Cantidad de Juegos Ganados|ELO mas bajo con el que ganó|
+|-------:|--------------------------:|----------------------------|
+|Grischuk, Alexander|23|2709.0|
+|Aronian, Levon|20|2645.0|
+|Anand, Viswanathan|19|2779.0|
+|Nakamura, Hikaru,|18|2699.0|
+|Ivanchuk, Vassily|17|2726.0|
+|Kramnik, Vladimir|12|2759.0|
+|Karjakin, Sergey|11|2672.0|
+|Caruana, Fabiano|11|2773.0|
+|Morozevich, Alexander|8|2741.0|
+|Radjabov, Teimour|8|2713.0|
+|Vachier-Lagrave,Maxime|7|2703.0|
+
+Los jugadores que aparecen son extremadamente fuertes y es entendible que puedan ganarle algunas partidas.
 
 
 
-Detail the results of the project. Different projects will have different types of results; e.g., run-times or result sizes, evaluation of the methods you're comparing, the interface of the system you've built, and/or some of the results of the data analysis you conducted.
+* Los Jugadores que más veces se han enfrentado
+
+
+
+| Jugador 1 | Jugador 2 |Victorias 1| Empates | Victorias 2|Cantidad Total| 
+|-------:|-------------:|----------:|--------:|-----------:|--------------:|
+|Anand, Viswanathan|Kramnik, Vladimir|30|148|30|208|
+|Caruana, Fabiano|Nakamura, Hikaru|24|57|55|136|
+|Anand, Viswanathan|Ivanchuk, Vassily|29|84|22|135|
+|Anand, Viswanathan|Topalov, Veselin|39|77|17|133|
+|Kasparov, Garry|Kramnik, Vladimir|25|86|22|133|
+|Nakamura, Hikaru|Vachier-Lagrave, Maxime|44|60|26|130|
+|Aronian, Levon|Nakamura, Hikaru|30|62|38|130|
+|Carlsen, Magnus|Nakamura, Hikaru|52|55|18|125|
+|Ivanchuk, Vassily|Kramnik, Vladimir|23|70|25|118|
+|Kramnik, Vladimir|Leko, Peter|21|88|8|117|
+
+Son jugadores que siempre se encuentran entre los mejores , por lo que encuentran siempre en gran cantidad de torneos oficiales como otros  no oficiales , sobre todo notar que los primeros fueron contendientes al título del mundo por lo que es natural que hayan jugado una gran cantidad de partidas
+
+
+* Por último 2 consultas del tipo general, 
+  * ¿Quién es el jugador que más ha ganado?
+    | Jugador  |      Cantidad  | 
+    |---------:|:-------------:|
+    |Shirov, Alexei|1556|
+    |Van Wely, Loek|1523|
+    |Korneev, Oleg|1509|
+    |Ivanchuk, Vassily|1435|
+    |Kozul, Zdenko|1333|
+    |Tiviakov, Sergei,1312|
+    |Hebden, Mark L|1310|
+    |Epishin, Vladimir|1309|
+    |Burmakin, Vladimir|1245|
+    |Nakamura, Hikaru|1221|
+    
+   * ¿Quienes son los jugadores con mas ELO?
+   
+      | Jugador  |      ELO  | 
+      |---------:|:-------------:|
+      |Carlsen, Magnus|2875|
+      |Caruana, Fabiano|2819|
+      |Kasparov, Garry|2812|
+      |Ding, Liren|2805|
+      |Vachier-Lagrave, Maxime|2779|
+      |Giri, Anish|2779|
+      |Nepomniachtchi, Ian|2775|
+      |Grischuk, Alexander|2775|
+      |Mamedyarov, Shakhriyar|2774|
+      |Anand, Viswanathan|2767|
+   
+    
+    
+    
+    
+    
 
 # Conclusion
 

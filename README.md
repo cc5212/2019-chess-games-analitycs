@@ -214,9 +214,8 @@ Son jugadores que siempre se encuentran entre los mejores , por lo que encuentra
     
 
 # Conclusion
+Como conclusión se pudo lograr obtener resultados bastantes interesantes con los cuales se pueden sacar algunas conclusiones, por ejemplo los jugadores élite son de ese nivel porque juegan mucho y siempre a una alta exigencia.
+En cuanto al procedimiento  ya que se ocupó pig no fue tan extenuannte el proceso , pero en contra de eso se pagó el costo de tener consultas esperando unlargo tiempo y con lo que el proceso de debugger no era el óptimo.
+Se podría hacer mejor ocupando Map/Reduce directamente con Hadoop
 
-Summarise main lessons learnt. What was easy? What was difficult? What could have been done better or more efficiently?
 
-# Appendix
-
-You can use this for key code snippets that you don't want to clutter the main text.
